@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="47">
-            <field name="TEXT">23+98=</field>
+            <field name="TEXT">999+465=</field>
             <next>
               <block type="oled_drawnumber" id="56" inline="true">
                 <value name="NUMBER">
@@ -22,12 +22,12 @@
                     <field name="OP">ADD</field>
                     <value name="A">
                       <block type="math_number" id="78">
-                        <field name="NUM">23</field>
+                        <field name="NUM">999</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="85">
-                        <field name="NUM">98</field>
+                        <field name="NUM">465</field>
                       </block>
                     </value>
                   </block>
